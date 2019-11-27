@@ -1,0 +1,296 @@
+.estilodiv{
+	/*background-color: #F4F4F4;*/	
+}
+
+.imgindex{
+	padding:2px;
+	background:#999;
+	border-radius:20px;
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+	-ms-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+	/*La transicion de las imagenes cuando crecer y decrecer*/
+	box-shadow:#999 5px 5px 10px;
+}
+
+/*es una pseudoclase*/ /*hover es cuando pasa el raton encima*/
+.imgindex:hover{
+	-webkit-transform:scale(1.1); /*hace que la imagen crezca*/
+	-ms-transform:scale(1.1);	
+}
+
+
+.principaldetalle{
+	width: 96%;
+	min-height: auto;
+	border-radius:20px;
+	/*border: 1px solid #DDD;*/
+	margin:0 auto;
+	margin-left: 2%;
+	margin-top: 50px;	
+
+	background-color:#fff;
+   	text-align: center;
+
+   	font: normal normal 18px quicksand;  /*fuente*/
+	letter-spacing: 2px; /*separación entre las letras*/
+	text-align: center; /*podemos cambiar por right. Si lo queremos a la izq. borrar esta línea*/
+	text-transform: uppercase; 
+
+}
+
+.boton_carrito{
+	text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+}
+
+.boton_carrito:hover{
+    color: #ffffff;
+    background-color: #09C;
+  }
+
+
+  .labelstock{
+ 	font-weight: 0; /*en negritas*/
+    font-size:  13px; /*tamaño*/
+	width:90%;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+ }
+
+ .tabla-carrito{
+	background:#fff;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 1em; 
+
+ }
+
+.tabla-carrito img{
+	width: 100px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lobster Two', cursive;
+}
+
+.busqueda-producto img{
+	width: 280px;
+	height: 250px;
+}
+
+.filaimage{
+	height: 350px;
+	align-items: center;
+	align-content: center;
+	bottom: 0;
+	left: 0;
+	top:0;
+	width: 100%;
+}
+
+.filaimage img{
+	width: 100%;
+	position: relative;
+	display: grid;
+	height: 380px;
+	margin-top: 30px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.copy{
+	height: 55px;
+	width: 100%;
+	margin-top: 50px;
+	color: gray;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #1A1A1A;
+}
+
+.copy a{
+	color:gray;
+	text-decoration: none;
+}
+
+.copy:hover a{
+	text-decoration:none;
+}
+
+.filaimage img:hover{
+	transition:all .7s ease-in-out;
+	border-radius:50%;
+	-webkit-border-radius:10%;
+}
+
+.medium{
+	width: 85%;
+	height: 550px;
+	display: grid;
+	margin: 5px auto;
+	align-content: space-between;
+	align-content: center;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+}
+
+.container-images{
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	align-items: center;
+}
+
+footer{
+  background:#1A1A1A ;
+  padding-right:60px;
+  padding-left: 60px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  width: 100%;
+  height: 450px;
+  border-radius: 0;
+  position:absolute;
+  display: inline-table;
+  align-items: center;
+  align-content: center;
+}
+
+footer .logo i{
+	color:gray;
+	font-size: 28px;
+	margin: 20px;
+	text-align: center;
+}
+
+.whats:hover i{
+	color: #25D366;
+	background: #1A1A1A;
+}
+
+.face:hover i{
+	color: #3b5998;
+	
+	background: #1A1A1A;
+}
+
+.twitter:hover i{
+	color: #00acee;
+}
+
+.google:hover i{
+	color: #DD4B39;
+	outline: none;
+}
+
+.logo h2{
+	text-align: center;
+	color:gray;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+.contacto{
+	color:gray;
+	text-align: center;
+	align-items: center;
+	top: 0px;
+}
+
+
+.chat-container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	max-width: 340px;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	z-index: 999;
+}
+
+.chat-button{
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+	user-select: none;
+	padding: 4px 0;
+	background-color: #337AB7;
+	text-align: center;
+	color: #fff;
+}
+
+.chat-content{
+	margin: 0;
+	padding: 0;
+	display: none;
+	background-color: #fff;
+}
+
+
+.open{
+	bottom: 0%;
+}
+
+.chat a{
+	font-size: 50px;
+	color: #3b5998;
+}
+
+.chat:hover a{
+	background: #fff;
+}
+
+.contacto h2{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+.newsletter{
+	color: gray;
+	align-items: center;
+}
+
+.newsletter h2{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+footer  nav{
+    position: absolute;
+    right: 0;
+    top: 50%;
+	transform: translate(-50px, -50%);
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    width: 60px;
+    height: 15px;
+	background:#fff;
+	color: #000;
+}
+
+.busqueda-producto img{
+	padding:2px;
+	background:#999;
+	border-radius:10px;
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+	-ms-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+	/*La transicion de las imagenes cuando crecer y decrecer*/
+	box-shadow:#999 5px 5px 10px;
+}
+
+/*es una pseudoclase*/ /*hover es cuando pasa el raton encima*/
+ .busqueda-producto img:hover{
+	-webkit-transform:scale(1.2); /*hace que la imagen crezca*/
+    -ms-transform:scale(1.2);
+} 
